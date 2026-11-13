@@ -43,8 +43,8 @@ class StudentDashboard extends StatelessWidget {
               CircleAvatar(
                 radius: 38,
                 child: ClipOval(
-                  child: Image.network(
-                    'https://randomuser.me/api/portraits/men/32.jpg',
+                  child: Image.asset(
+                    'assets/student.jpg',
                     width: 76,
                     height: 76,
                     fit: BoxFit.cover,
